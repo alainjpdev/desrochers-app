@@ -19,6 +19,8 @@ import apartmentsData from "./data/apartments.json"
 
 function MyMap(){
 
+
+
     const [selectedAparment, setSelecetedAparment ] = useState(null);
 
    return(
@@ -26,7 +28,7 @@ function MyMap(){
         defaultZoom={17}
         defaultCenter={{ lat: 20.199167, lng: -87.459697 }}
         defaultOptions={{styles: mapStyle}}
-      >
+      > 
         {apartmentsData.features.map(apartment => (
             <Marker 
                 key={apartment.properties.PARK_ID} 
