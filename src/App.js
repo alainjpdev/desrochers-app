@@ -12,10 +12,10 @@ function App() {
     <>
       <div className="wraper">
        <Navbar />
-       
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
+       <Home/>
+        {/* <Routes> */}
+          {/* <Route path="/" element={<Home />} /> */}
+        {/* </Routes> */}
         {/* <Footer /> */}
       </div>
     </>

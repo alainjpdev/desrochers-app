@@ -1,6 +1,5 @@
 import { GoogleMap, Marker } from "react-google-maps"
-import withGoogleMap from "react-google-maps/lib/withGoogleMap"
-import withScriptjs from "react-google-maps/lib/withScriptjs"
+
 
 export default function MyMap(){
 <GoogleMap
@@ -16,5 +15,5 @@ export default function MyMap(){
 
 
 }
-const WrappedMap = withScriptjs(withGoogleMap(MyMap))
+
   
