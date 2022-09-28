@@ -34,11 +34,11 @@
   
   .footer-subscription-text {
     margin-bottom: 24px;
-    font-size: 20px;
+    font-size:},{lat:20px;
   }
   
   .footer-input {
-    padding: 8px 20px;
+    padding: 8px},{lat:20px;
     border-radius: 2px;
     margin-right: 10px;
     outline: none;
@@ -150,7 +150,7 @@
   .social-logo {
     color: #fff;
     justify-self: start;
-    margin-left: 20px;
+    margin-left:},{lat:20px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
