@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/desrochers-app/static/css/main.332ea077.css",
-    "main.js": "/desrochers-app/static/js/main.cad246b4.js",
+    "main.css": "/desrochers-app/static/css/main.372f7b94.css",
+    "main.js": "/desrochers-app/static/js/main.2246f921.js",
     "static/js/787.8510b0f0.chunk.js": "/desrochers-app/static/js/787.8510b0f0.chunk.js",
     "index.html": "/desrochers-app/index.html",
-    "main.332ea077.css.map": "/desrochers-app/static/css/main.332ea077.css.map",
-    "main.cad246b4.js.map": "/desrochers-app/static/js/main.cad246b4.js.map",
+    "main.372f7b94.css.map": "/desrochers-app/static/css/main.372f7b94.css.map",
+    "main.2246f921.js.map": "/desrochers-app/static/js/main.2246f921.js.map",
     "787.8510b0f0.chunk.js.map": "/desrochers-app/static/js/787.8510b0f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.332ea077.css",
-    "static/js/main.cad246b4.js"
+    "static/css/main.372f7b94.css",
+    "static/js/main.2246f921.js"
   ]
 }
