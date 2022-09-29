@@ -9,6 +9,10 @@ import withScriptjs from "react-google-maps/lib/withScriptjs"
 import mapStyle from "../mapStyle"
 import apartmentsData from "./data/apartments.json"
 import polygon1 from "./data/aldeaGraphic"
+import { three } from "./data/linea"
+// import lineasArray from "./data/lineasArray"
+
+import {lineasArray} from "./data/linea"
 
 
 
@@ -352,6 +356,36 @@ const poly_9 = [
         fillOpacity= {1}
         visible={true}
          />
+         <Polyline
+    path={three}
+    strokeColor= {"#FF0000"}
+        strokeOpacity= {1}
+        strokeWeight= {1}
+        fillColor= {"#ff0000"}
+        fillOpacity= {1}
+        visible={true}
+         />
+
+<Polyline
+    path={three}
+    strokeColor= {"#FF0000"}
+        strokeOpacity= {1}
+        strokeWeight= {1}
+        fillColor= {"#ff0000"}
+        fillOpacity= {1}
+        visible={true}
+         />
+          {lineasArray.map(linea => (
+            <Polyline
+            path={ linea }
+            strokeColor= {"#FF0000"}
+                strokeOpacity= {1}
+                strokeWeight= {1}
+                fillColor= {"#ff0000"}
+                fillOpacity= {1}
+                visible={true}
+                 />
+        ))}
 
          
     
