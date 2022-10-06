@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/desrochers-app/static/css/main.372f7b94.css",
-    "main.js": "/desrochers-app/static/js/main.0fe40a34.js",
+    "main.css": "/desrochers-app/static/css/main.4e2c4924.css",
+    "main.js": "/desrochers-app/static/js/main.a387a3d9.js",
     "static/js/787.8510b0f0.chunk.js": "/desrochers-app/static/js/787.8510b0f0.chunk.js",
+    "static/media/pdfTest.pdf": "/desrochers-app/static/media/pdfTest.c67a230bca32c2165cf4.pdf",
+    "static/media/imgTest.png": "/desrochers-app/static/media/imgTest.99c574e32ad182738af4.png",
+    "pdf.worker.js": "/desrochers-app/e7e915313973ba1d49f9bb2a1998626e.js",
+    "static/media/imgTestPhimai.png": "/desrochers-app/static/media/imgTestPhimai.5b0208074b246cb48131.png",
     "index.html": "/desrochers-app/index.html",
-    "main.372f7b94.css.map": "/desrochers-app/static/css/main.372f7b94.css.map",
-    "main.0fe40a34.js.map": "/desrochers-app/static/js/main.0fe40a34.js.map",
+    "main.4e2c4924.css.map": "/desrochers-app/static/css/main.4e2c4924.css.map",
+    "main.a387a3d9.js.map": "/desrochers-app/static/js/main.a387a3d9.js.map",
     "787.8510b0f0.chunk.js.map": "/desrochers-app/static/js/787.8510b0f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.372f7b94.css",
-    "static/js/main.0fe40a34.js"
+    "static/css/main.4e2c4924.css",
+    "static/js/main.a387a3d9.js"
   ]
 }
