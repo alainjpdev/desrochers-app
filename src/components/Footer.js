@@ -8,10 +8,10 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure with MOKE TULUM newsletter
+          
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+         
         </p>
         <div className='input-areas'>
           <form>
@@ -28,11 +28,8 @@ function Footer() {
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>MOKE TULUM</h2>
-            <p>From British classic to Caribbean icon, 
-              Moke has become a symbol of fun in the sun.
-               Meet Moke America: The electric, street legal 
-               and open-air low speed vehicle with style, available exclusively in the USA.</p>
+            <h2>DESROCHERS</h2>
+            <p></p>
            
           </div>
           <div class='footer-link-items'>

@@ -41,7 +41,18 @@ function Navbar() {
         <ul  className={click ? "nav-menu active" : "nav-menu"}>
           <li className='nav-item'>
             <Link to="/" className='nav-links' onClick={closeMobileMenu}>
-              HOME
+              Map1
+            </Link>
+            </li>
+            <li className='nav-item'>
+            <Link to="/Map2" className='nav-links' onClick={closeMobileMenu}>
+              Map2
+            </Link>
+            </li>
+
+            <li className='nav-item'>
+            <Link to="/Map3" className='nav-links' onClick={closeMobileMenu}>
+              Map3
             </Link>
             </li>
 

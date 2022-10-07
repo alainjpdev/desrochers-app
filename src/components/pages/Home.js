@@ -18,6 +18,8 @@ import apartmentsData from "./data/apartments.json"
 
 
 
+
+
 {/* {props.isMarkerShown && <Marker position={{ lat: -34.397, lng: 150.644 }} />} */}
    
     
@@ -25,6 +27,9 @@ import apartmentsData from "./data/apartments.json"
     <MyMap isMarkerShown={false} />// Just only Map */}
 
 function MyMap(){
+
+
+
   const poly_1 = [
     { lat: 20.200244, lng: -87.460912 },   { lat:  20.200064, lng: -87.46068  }, { lat: 20.200072, lng: -87.460668}, { lat: 20.200091, lng: -87.460638},   
     { lat: 20.200102, lng: -87.460604 },   { lat:  20.200098, lng: -87.460549 }, { lat: 20.200075, lng: -87.460495}, { lat: 20.200045, lng: -87.46047 },   
@@ -150,12 +155,16 @@ const poly_9 = [
     }
 
    return(
-     <GoogleMap
+
+    <> 
+   
+    <GoogleMap
         defaultZoom={17}
         defaultCenter={{ lat: 20.199167, lng:-87.459697 }}
         defaultOptions={{styles: mapStyle}}
         // mapTypeId= {'satellite'}
       > 
+           
         {apartmentsData.features.map(apartment => (
             <Marker 
                 key={apartment.properties.PARK_ID} 
@@ -404,10 +413,14 @@ const poly_9 = [
                 visible={true}
                  />
         ))}
+   
 
          
     
     </GoogleMap>
+    
+    </>
+
         
     );
     
@@ -423,14 +436,14 @@ function Home() {
     libraries=geometry,drawing,places&key=${process.env.REACT_APP_GOOGLE_MAPS_KEY}`}
      loadingElement={<div style={{ height: `100%` }} />}
      containerElement={<div style={{ height: `650px` }} />}
-     mapElement={<div style={{ height: `100%` }} />} 
-     /> */}
+     mapElement={<div style={{ height: `100%` }} />}
+     />  */}
 
     <div style={{width: "100vw", height:"100vw"}}>
     <WrappedMap googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&
     libraries=geometry,drawing,places`}
      loadingElement={<div style={{ height: `100%` }} />}
-     containerElement={<div style={{ height: `650px` }} />}
+     containerElement={<div style={{ height: `100%` }} />}
      mapElement={<div style={{ height: `100%` }} />} 
      />
      </div>
